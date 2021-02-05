@@ -1,0 +1,16 @@
+.landing-page-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-box > a {
+    margin-bottom: 12px;
+}

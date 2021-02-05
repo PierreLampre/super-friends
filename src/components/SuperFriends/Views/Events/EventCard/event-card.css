@@ -1,0 +1,28 @@
+.event-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.event-card-container > p {
+    width: 80%;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.day {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    width: 100%;
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+}
