@@ -1,0 +1,42 @@
+[
+    {
+       "name": "Appetizers",
+        "orders": [
+            {
+                "name": "Mozzarella Sticks",
+                "price": "4.99",
+                "description": "Golden friend mozzarella sticks with a side of marinara sauce"
+            },
+            {
+                "name": "Potato Skins",
+                "price": "5.99",
+                "description": "Seasoned potato skins covered in bacon, cheese, scallions, and sour cream"
+            },
+            {
+                "name": "Nachos",
+                "price": "7.99",
+                "description": "Nachos piled high with taco beef, nacho cheese, pico de gallo, cilantro, and jalapenos.  Sub Chicken 1.99 Sub Steak 2.99"
+            }
+        ]
+    },
+    {
+        "name": "Burgers",
+        "orders": [
+            {
+                "name": "Super Friends Burger",
+                "price": "9.99",
+                "description": "House special burger, two burger patties with cheddar cheese, bacon, lettuce, tomato, fried onions, and burger sauce on a brioche bun"
+            },
+            {
+                "name": "BBQ Burger",
+                "price": "9.99",
+                "description": "Two burger patties with american cheese, lettuce, tomato, crispy fried onions, and bbq sauce on a brioche bun"
+            },
+            {
+            "name": "Hawaiian Burger",
+            "price": "9.99",
+            "description": "Burger patty topped with pineapple chutney, queso fresco, ketchup, american cheese, on a Kings Hawaiian Roll"
+            }
+        ]
+    }
+]

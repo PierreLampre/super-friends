@@ -15,10 +15,11 @@
     display: grid;
     align-self: center;
     color: white;
+    letter-spacing: 3px;
 }
 
 .info-graphic {
-    background: dodgerblue;
+    background: ghostwhite;
     grid-row: 2 / 10;
     grid-column: 1 / 9;
     margin: 0 12px;
@@ -29,7 +30,7 @@
 }
 
 .nav {
-    background: orangered;
+    background: #592720;
     grid-row: 10 / 11;
     grid-column: 1/ 9;
     margin: 0 12px;
@@ -42,7 +43,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background: orangered;
+    background: #7b3f00;
     border: none;
     cursor: pointer;
     padding: 10px;

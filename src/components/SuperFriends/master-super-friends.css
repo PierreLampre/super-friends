@@ -1,6 +1,15 @@
 .master-super-friends-container {
     display: grid;
-    background: slateblue;
+    background:url("../../img/danang.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 30%;
     width: 100vw;
     height: 100vh;
+    font-family: 'Merienda', cursive;
+}
+
+.info-graphic {
+    display: grid;
+    justify-items: center;
 }

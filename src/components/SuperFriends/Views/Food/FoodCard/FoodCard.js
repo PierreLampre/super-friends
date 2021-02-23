@@ -1,19 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
+import "./food-card.css"
 
+const FoodCard = ({  name, orders }) => {
 
-const FoodCard = () => {
-
-    const [categoryToggle, setCategoryToggle] = useState(false);
-
+   
     return (
-        <div className="food-card-container">
-            <div className="menu-toggle">
-                <div className="icon"></div>
-                <h3>Category Title</h3>
-            </div>
-            <div className="category-items">
-
-            </div>
+        <div className="food-card">
+            <h2>{name}</h2>
+                {orders.map(order => (
+                    <div className="order">
+                        <div className="price-and-name">
+                            <h3 className="order-name">{order.name}</h3>
+                            <h4 className="order-price">{order.price}</h4>
+                        </div>
+                        
+                        <p className="order-desc">{order.description}</p>
+                    </div>
+                ))}
         </div>
     )
 }

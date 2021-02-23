@@ -7,13 +7,13 @@
 }
 
 .event-card-container > p {
-    width: 80%;
-    margin: 10px 0;
+    width: 60%;
+    margin: 10px 0 20px 0;
     line-height: 1.5;
 }
 
 .day {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
 }

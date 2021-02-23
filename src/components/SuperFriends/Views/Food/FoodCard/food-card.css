@@ -1,0 +1,22 @@
+.food-card {
+    width: 70%;
+}
+
+.food-card > h2 {
+    text-align: center;
+    margin: 12px 0;
+    background: silver;
+}
+
+.price-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.price-and-name > h3 {
+    margin-right: 12px;
+}
+
+.order-desc {
+    margin-bottom: 12px;
+}
